@@ -363,11 +363,9 @@ p {
         padding: .5rem;
     }
 
-    .vacum-bg {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .call-now button{
-font-size: 14px;
+  
+
+    .call-now button {
+        font-size: 14px;
     }
 }
