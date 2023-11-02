@@ -367,4 +367,7 @@ p {
         padding-top: 0;
         padding-bottom: 0;
     }
+    .call-now button{
+font-size: 14px;
+    }
 }
