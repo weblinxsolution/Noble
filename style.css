@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f1d7b6;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a {
+    color: #f1d7b6;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+    color: #393631;
+}
+
+.fs-30 {
+    font-size: 25px;
+}
+
+.text-skin {
+    color: #f1d7b6;
+}
+
+.text-black {
+    color: #3a3732;
+}
+
+.header-bg {
+    background-color: #3a3832;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.logo-page {
+    width: 200px;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: end;
+}
+
+.hamburger i {
+    color: #f1d7b6;
+    font-size: 35px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./images/arrow-banner-prve.png");
+    width: 60px;
+    height: 60px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("./images/arrow-banner-next.png");
+    width: 60px;
+    height: 60px;
+}
+
+.banner-title {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translateX(-50%);
+}
+
+.spacing {
+    padding-top: 5%;
+}
+
+.globle-btn button {
+    background-color: #393631;
+    border: none;
+    padding: .5rem 1rem;
+}
+
+.text-arrow {
+    width: 30px;
+}
+
+.about-img {
+    position: relative;
+}
+
+.intro-text-img {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+.intro-text-img-1 {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.sec-4-bg {
+    background-image: url("./images/Commitment.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-skin-exellence {
+    margin-top: 4rem;
+    background-color: #f1d7b6;
+    padding: 0 10px;
+    height: 140px;
+    display: flex;
+    align-items: end;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.top-img {
+    position: absolute;
+    width: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30%;
+}
+
+.services-image-crystal {
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
+}
+
+.services-image-crystal img {
+    width: 80%;
+}
+
+.feed-img {
+    background-image: url("./images/100k-people.png");
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.company-logo {
+    background-color: #FFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies-logo {
+    width: 100px;
+}
+
+.inner-spacing {
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+}
+
+.down-btn button {
+    border-radius: 100px;
+    border: 4px solid #f1d7b6;
+    color: #f1d7b6;
+    background-color: transparent;
+    font-size: 16px;
+    padding: .8rem 2rem;
+}
+
+.vacum-bg {
+    background-image: url("./images/vacum-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.to-easy {
+    background-color: #f1d7b6;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+}
+
+.sec-9bg {
+    background: #2a2925;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.to-easy-text {
+    color: #f1d7b6;
+}
+
+.quote-btn button {
+    background-color: #CB865D;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+}
+
+.footer-bg {
+    background: #3a3732;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.all-socails {
+    gap: .5rem;
+}
+
+.all-socails div {
+    width: 40px;
+}
+
+.call-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.call-now button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #f1d7b6 !important;
+    padding: .5rem 1rem;
+    border: #CB865D 3px solid;
+    border-radius: 10px;
+}
+
+.call-now button img {
+    width: 50%;
+}
+
+.lower-sec {
+    background: #2a2925;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.my__img {
+    background-image: url('./images/about-noble-services.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.my__img1 {
+    background-image: url('./images/our-services.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.my__img2 {
+    background-image: url('./images/why-choose-us.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img__box {
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: end;
+}
+
+.img__box-2 {
+    justify-content: end;
+}
+
+.img__box {
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: end;
+}
+
+.img__box h2 {
+    color: #f1d7b6;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+.img__arrow {
+    width: 30px;
+}
+
+
+@media(max-width:768px) {
+    .logo-page {
+        width: 120px;
+    }
+
+    .carousel-control-next-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .carousel-control-prev-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .fs-30 {
+        font-size: 15px;
+        margin-bottom: 1px;
+    }
+
+    .card-skin-exellence {
+        margin-top: 0;
+    }
+
+    .card-skin-exellence {
+        height: 90px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width:400px) {
+    .top-img {
+        width: 20%;
+    }
+
+    .down-btn button {
+        padding: .5rem;
+    }
+
+    .vacum-bg {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
