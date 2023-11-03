@@ -486,9 +486,7 @@ p {
     font-size: 28px;
     
 }
-.crystal-img:hover + .normal-image{
-    display: none;
-}
+
 
 
 
