@@ -11,9 +11,9 @@ body {
     background-color: #f1d7b6;
 }
 
-.on-servises {
+/* .on-servises {
     background: #3a3832 !important;
-}
+} */
 
 .wrapper {
     max-width: 1300px;
@@ -476,7 +476,27 @@ p {
     padding-bottom: 4rem;
 }
 
-@media(max-width:768px) {
+.soft-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.soft-text p{
+    font-size: 28px;
+    
+}
+.crystal-img:hover + .normal-image{
+    display: none;
+}
+
+
+
+@media(max-width:991px) {
+    .custom-height {
+        height: 500px;
+    }
+
     .img__box-2 {
         justify-content: start;
     }
@@ -520,7 +540,9 @@ p {
         padding: .5rem;
     }
 
-
+    .custom-height {
+        height: max-content;
+    }
 
     .call-now button {
         font-size: 14px;

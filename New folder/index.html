@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .r-hex {
+            overflow: hidden;
+            display: inline-block;
+            margin: 4em 0;
+            width: 15em;
+            height: 17.32em;
+            transform: rotate(90deg) skewX(30deg);
+            border-radius: .5em;
+        }
+
+        .r-hex *,
+        .r-hex *:before {
+            display: block;
+            overflow: hidden;
+            width: inherit;
+            height: inherit;
+            border-radius: inherit;
+        }
+
+        .r-hex-inner {
+            transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+        }
+
+        .r-hex:first-child .r-hex-inner:before,
+        .r-hex-inner-2 {
+            transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+        }
+
+        .r-hex-inner-2:before {
+            font-size: 1em;
+            margin-top: -1.5em;
+            height: 20em;
+            transform: skewX(-30deg) rotate(150deg);
+            background: orange;
+            line-height: 20em;
+            text-align: center;
+            content: 'Hello.';
+        }
+    </style>
+</head>
+
+<body>
+    <div class='r-hex' id="hexagon1">
+        <div class='r-hex-inner'>
+            <div class='r-hex-inner-2'></div>
+        </div>
+    </div>
+
+    <div class='r-hex' id="hexagon2">
+        <div class='r-hex-inner'>
+            <div class='r-hex-inner-2'></div>
+        </div>
+    </div>
+    <div class='r-hex' id="hexagon2">
+        <div class='r-hex-inner'>
+            <div class='r-hex-inner-2'></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
