@@ -11,11 +11,15 @@ body {
     background-color: #f1d7b6;
 }
 
+.on-servises {
+    background: #3a3832 !important;
+}
+
 .wrapper {
     max-width: 1300px;
     margin: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 ul {
@@ -75,7 +79,7 @@ p {
 }
 
 .logo-page {
-    width: 200px;
+    width: 150px;
 }
 
 .hamburger {
@@ -282,6 +286,7 @@ p {
     border-radius: 10px;
     transition: .5s all;
 }
+
 .call-now button:hover {
     display: flex;
     align-items: center;
@@ -448,10 +453,27 @@ p {
     transform: translateY(-5px);
     transition: .5s;
 }
+
 .hover-efftc img:hover {
     /* -webkit-filter: drop-shadow(5px 5px 5px #f1f1f1); */
     filter: drop-shadow(0px 0px 0px #000000);
     transform: translateY(0);
+}
+
+.services-heading {
+    position: absolute;
+    top: 50%;
+    left: 11%;
+
+}
+
+.orange-bg {
+    background-color: #cb885e;
+}
+
+.inner-pad {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 @media(max-width:768px) {
