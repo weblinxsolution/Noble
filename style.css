@@ -545,6 +545,7 @@ p {
     color: #f1d7b6;
 }
 
+<<<<<<< Updated upstream
 .r-hex {
     overflow: hidden;
     display: inline-block;
@@ -797,6 +798,95 @@ p {
 }
 
 
+=======
+.light-black-right {
+    background-color: #3a3832;
+}
+
+.dark-black-left {
+    background-color: #2f2e29;
+}
+
+.card-black {
+    background-color: #2f2d28;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.card-black1 {
+    background-color: #292824;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.inner-logo-dark img {
+    position: absolute;
+    width: 25%;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.unmatch-solution {
+    background-image: url("./images/unmatch-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.unmatch-solution-2 {
+    background-image: url("./images/unmatch-img-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards-lights-color {
+    background-color: #f1d7b6;
+    padding: 1.5rem;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.cards-lights-color1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-text-card-light .inner-text-card-light-1 {
+    padding-top: 4rem;
+}
+
+.zotact {
+    padding-top: 7rem !important;
+}
+
+.inner-text-card-light .inner-text-card-light-1 p {
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.contact-form-bg {
+    background: #fae9d3;
+}
+
+.location-bg {
+    background-image: url("./images/bg-map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.location-btn button {
+    background-color: #b16243;
+    border: none;
+    padding: .8rem 2rem;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+>>>>>>> Stashed changes
 @media(max-width:991px) {
     .custom-height {
         height: 500px;
@@ -839,8 +929,23 @@ p {
         background-size: cover;
     }
 }
-
+@media (max-width:800px) {
+    .inner-logo-dark img {
+        position: absolute;
+        width: 20%;
+        top: -4rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 @media (max-width:600px) {
+    .inner-logo-dark img {
+        position: absolute;
+        width: 25%;
+        top: -4rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .about-bg-1 {
         background-size: cover;
         padding-top: 65%;
@@ -849,6 +954,13 @@ p {
 }
 
 @media (max-width:400px) {
+    .inner-logo-dark img {
+        position: absolute;
+        width: 35%;
+        top: -4rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .ceo-inner {
         margin-top: 5rem;
     }
