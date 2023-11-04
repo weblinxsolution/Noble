@@ -965,6 +965,12 @@ p {
 }
 
 @media (max-width:600px) {
+    .overlay a {
+    
+        text-align: center;
+        padding-left: unset;
+
+    }
 
     .inner-logo-dark img {
         position: absolute;
