@@ -218,6 +218,7 @@ p {
     padding: .8rem 2rem;
     transition: .5s;
 }
+
 .down-btn button:hover {
     border-radius: 100px;
     border: 4px solid #f1d7b6;
@@ -329,18 +330,20 @@ p {
     transition: .5s;
     overflow: hidden;
 }
+
 .my__img::after {
-   content: '';
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   background-color: #00000091;
-   bottom: 0;
-   right: 0;
-   transition: .5s;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000091;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
 }
+
 .my__img:hover::after {
-   right: 100%;
+    right: 100%;
 }
 
 .my__img1 {
@@ -351,6 +354,7 @@ p {
     overflow: hidden;
 
 }
+
 .my__img1::after {
     content: '';
     width: 100%;
@@ -360,10 +364,11 @@ p {
     bottom: 0;
     right: 0;
     transition: .5s;
- }
- .my__img1:hover::after {
+}
+
+.my__img1:hover::after {
     right: 100%;
- }
+}
 
 .my__img2 {
     background-image: url('./images/why-choose-us.png');
@@ -372,6 +377,7 @@ p {
     transition: .5s;
     overflow: hidden;
 }
+
 .my__img2::after {
     content: '';
     width: 100%;
@@ -381,10 +387,12 @@ p {
     bottom: 0;
     right: 0;
     transition: .5s;
- }
- .my__img2:hover::after {
+}
+
+.my__img2:hover::after {
     right: -100%;
- }
+}
+
 .img__box-2 {
     justify-content: end;
 }
@@ -892,10 +900,11 @@ p {
 }
 
 @media(max-width:991px) {
-    .transparent-card img{
+    .transparent-card img {
         width: 13%;
         top: -4rem;
     }
+
     .custom-height {
         height: 500px;
     }
@@ -936,6 +945,7 @@ p {
     .our-missions {
         background-size: cover;
     }
+
     .top-img {
         top: -60%;
     }
@@ -949,7 +959,8 @@ p {
         left: 50%;
         transform: translateX(-50%);
     }
-    .transparent-card img{
+
+    .transparent-card img {
         width: 20%;
         top: -4rem;
     }
@@ -959,6 +970,7 @@ p {
     .top-img {
         width: 70px;
     }
+
     .hex__box {
         transform: scale(0.8);
     }
@@ -966,10 +978,10 @@ p {
 
 @media (max-width:600px) {
     .overlay a {
-    
+
         text-align: center;
         padding-left: unset;
-
+        font-size: small;
     }
 
     .inner-logo-dark img {
@@ -1007,9 +1019,10 @@ p {
 }
 
 @media(max-width:450px) {
-    .transparent-card img{
+    .transparent-card img {
         width: 30%;
     }
+
     .hexagon_img img {
         width: 150px;
         margin: 3px;
