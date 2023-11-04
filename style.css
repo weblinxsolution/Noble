@@ -216,6 +216,15 @@ p {
     background-color: transparent;
     font-size: 16px;
     padding: .8rem 2rem;
+    transition: .5s;
+}
+.down-btn button:hover {
+    border-radius: 100px;
+    border: 4px solid #f1d7b6;
+    color: #FFF;
+    background-color: #f1d7b6;
+    font-size: 16px;
+    padding: .8rem 2rem;
 }
 
 .vacum-bg {
@@ -295,8 +304,8 @@ p {
 .call-now button:hover {
     display: flex;
     align-items: center;
-    background-color: #FFF;
-    color: #000 !important;
+    background-color: #CB865D;
+    color: #FFF !important;
     /* font-weight: 600; */
     padding: .5rem 1rem;
     border: #CB865D 3px solid;
@@ -318,6 +327,20 @@ p {
     background-size: cover;
     background-position: center;
     transition: .5s;
+    overflow: hidden;
+}
+.my__img::after {
+   content: '';
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: #00000091;
+   bottom: 0;
+   right: 0;
+   transition: .5s;
+}
+.my__img:hover::after {
+   right: 570px;
 }
 
 .my__img1 {
@@ -325,17 +348,43 @@ p {
     background-size: cover;
     background-position: center;
     transition: .5s;
+    overflow: hidden;
 
 }
+.my__img1::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000091;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+ }
+ .my__img1:hover::after {
+    right: 570px;
+ }
 
 .my__img2 {
     background-image: url('./images/why-choose-us.png');
     background-size: cover;
     background-position: center;
     transition: .5s;
-
+    overflow: hidden;
 }
-
+.my__img2::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000091;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+ }
+ .my__img2:hover::after {
+    right: 570px;
+ }
 .img__box-2 {
     justify-content: end;
 }
@@ -348,7 +397,6 @@ p {
     display: flex;
     align-items: end;
     position: relative;
-    filter: blur(5px);
     cursor: pointer;
 }
 
@@ -454,14 +502,14 @@ p {
 
 .hover-efftc img {
     /* -webkit-filter: drop-shadow(5px 5px 5px #f1f1f1); */
-    filter: drop-shadow(0px 6px 5px #000000);
+    /* filter: drop-shadow(0px 6px 5px #000000); */
     transform: translateY(-5px);
     transition: .5s;
 }
 
 .hover-efftc img:hover {
     /* -webkit-filter: drop-shadow(5px 5px 5px #f1f1f1); */
-    filter: drop-shadow(0px 0px 0px #000000);
+    /* filter: drop-shadow(0px 0px 0px #000000); */
     transform: translateY(0);
 }
 
