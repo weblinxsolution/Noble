@@ -545,6 +545,258 @@ p {
     color: #f1d7b6;
 }
 
+.r-hex {
+    overflow: hidden;
+    display: inline-block;
+    margin: 4em -13px;
+    width: 15em;
+    height: 17.32em;
+    transform: rotate(90deg) skewX(30deg);
+    border-radius: .5em;
+}
+
+.r-hex *,
+.r-hex *:before {
+    display: block;
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
+.r-hex-inner {
+    transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+}
+
+.r-hex:first-child .r-hex-inner:before,
+.r-hex-inner-2 {
+    transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+}
+
+.r-hex-inner-2:before {
+    font-size: 1em;
+    margin-top: -1.5em;
+    height: 20em;
+    transform: skewX(-30deg) rotate(-60deg);
+    line-height: 20em;
+    text-align: center;
+    content: '';
+}
+
+.r-hex1::before {
+    background: #B16344;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.r-hex2::before {
+    background: #393731;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.r-hex3::before {
+    background: #CB865E;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.r-hex4 {
+    background-image: url('./images/shap1.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.r-hex5 {
+    background-image: url('./images/shap1.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.r-hex1:hover::before {
+    background: #393731;
+}
+
+.r-hex2:hover::before {
+    background: #CB865E;
+}
+
+.r-hex3:hover::before {
+    background: #393731;
+}
+
+.hex1:hover+.r-hex1 {
+    background: #393731;
+}
+
+
+.hex3 .r-hex2:hover::before {
+    background: #CB865E;
+}
+
+.hex3 .r-hex3:hover::before {
+    background: #393731;
+}
+
+.hex_col {
+    width: 100%;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.hex1 {
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hex2 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hex3 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hexagon_img img {
+    width: 206px;
+    margin: 1px;
+}
+
+.hex__box {
+    transform: scale(1.8);
+}
+
+#services {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+
+@media(min-width:1100px) {
+    .title__ {
+        transform: translateY(-100px);
+    }
+}
+
+@media(max-width:1400px) {
+    #services {
+        padding-top: 10%;
+        padding-bottom: 13%;
+
+    }
+
+    .hex__box {
+        transform: scale(1.7);
+    }
+}
+
+@media(max-width:1100px) {
+    .hex__box {
+        transform: scale(1.2);
+    }
+
+    #services {
+        padding-top: 10%;
+        padding-bottom: 2%;
+    }
+}
+
+@media(max-width:768px) {
+    .hex__box {
+        transform: scale(0.8);
+    }
+}
+
+@media(max-width:560px) {
+    .hex__box {
+        transform: scale(0.6);
+    }
+
+    .r-hex {
+        overflow: hidden;
+        display: inline-block;
+        margin: 4em -13px;
+        width: 14em;
+    }
+
+    .hexagon_img img {
+        width: 191px;
+        margin: 3px;
+        margin-top: -15px;
+    }
+}
+
+@media(max-width:450px) {
+    .hexagon_img img {
+        width: 150px;
+        margin: 3px;
+        margin-top: -75px;
+    }
+
+    .r-hex {
+        width: 12em;
+    }
+
+    .hex1 {
+        top: 42%;
+        left: 26%;
+        font-size: 19px;
+    }
+
+    .hex2 {
+        top: 43%;
+        left: 15%;
+        font-size: 19px;
+    }
+
+    .hex3 {
+        top: 43%;
+        left: 20%;
+        font-size: 19px;
+    }
+
+    #services {
+        padding-top: 10%;
+        padding-bottom: 2%;
+        height: 450px;
+    }
+}
+
+@media(max-width:375px) {
+    .hexagon_img img {
+        width: 138px;
+        margin-top: -95px;
+    }
+
+    .r-hex {
+        width: 11em;
+    }
+
+}
+
+
 @media(max-width:991px) {
     .custom-height {
         height: 500px;
