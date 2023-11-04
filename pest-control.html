@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble-PEST control</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+        integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS effect -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="on-servises">
+    <!-- Header -->
+    <header class="header-bg">
+        <div class="wrapper px-0">
+            <div class="row mx-0 align-items-center justify-content-between">
+                <div class="col-6 logo-page">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="col-6 hamburger">
+                    <i onclick="openNav()" class="ri-menu-line"></i>
+                    <!-- Use any element to open/show the overlay navigation menu -->
+
+                </div>
+            </div>
+        </div>
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#home" onclick="closeNav()">Home</a>
+                <a href="#about" onclick="closeNav()">About</a>
+                <a href="#services" onclick="closeNav()">Services</a>
+                <a href="#client" onclick="closeNav()">Clients</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <!-- Banner -->
+    <!-- secttion-1 About -->
+    <section class="about-bg-1">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="text-white">
+                        Pest control Eco-Friendly
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 -->
+    <section class="orange-bg">
+        <div class="wrapper">
+            <div class="inner-pad">
+                <p class="text-skin">
+                    At Noble Services, we understand the significance of sustainable pest control solutions that are not
+                    only effective but also aligned with global environmental standards. Introducing Eco Guard Pest
+                    Control, our commitment to providing eco-friendly pest management services that prioritize the
+                    health of your environment and our planet.
+                </p>
+                <p class="text-skin">
+                    At Noble Services our commitment to both effective pest control and environmental responsibility is
+                    unwavering. Join us in preserving a healthy, pest-free environment for generations to come with
+                    EcoGuard Pest Control.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="row mx-0">
+            <div class="col-lg-6 px-0">
+                <img src="./images/blog-square.png" alt="">
+            </div>
+            <div class="col-lg-6 d-flex align-items-start custom-height">
+                <div class="px-3 pt-5">
+                    <div class="mb-5">
+                        <h2 class="fs-1">
+                            Eco-Smart Pest <br> Inspection
+                        </h2>
+                    </div>
+                    <div>
+                        <p>
+                            Conduct a thorough assessment of your <br class="d-lg-block d-none"> premises to identify
+                            pest issues and tailor our <br class="d-lg-block d-none">eco-solutions accordingly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0 flex-lg-row flex-column-reverse">
+            <div class="col-lg-6 d-flex align-items-start justify-content-lg-end justify-content-start custom-height">
+                <div class="px-lg-5 pt-5">
+                    <div class="mb-5">
+                        <h2 class="fs-1">
+                            EcoShield Barrier <br> Application
+                        </h2>
+                    </div>
+                    <div>
+                        <p>
+                            Applying natural, non-toxic barriers to deter<br class="d-lg-block d-none"> pests and
+                            prevent their entry into your space<br class="d-lg-block d-none">
+                            while preserving the ecosystem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 px-0">
+                <img src="./images/blog-square.png" alt="">
+            </div>
+        </div>
+        <div class="row mx-0 ">
+            <div class="col-lg-6 px-0">
+                <img src="./images/blog-square.png" alt="">
+            </div>
+            <div class="col-lg-6 d-flex align-items-start custom-height">
+                <div class="px-lg-3 pt-5">
+                    <div class="mb-5">
+                        <h2 class="fs-1">
+                            Eco-Friendly Pest <br> Treatment
+                        </h2>
+                    </div>
+                    <div>
+                        <p>
+                            Implementing targeted, environmentally <br class="d-lg-block d-none"> conscious treatments
+                            to eradicate pests,<br class="d-lg-block d-none"> utilizing
+                            organic and biodegradable products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section-2  contact-->
+    <section class="spacing-2 approch-bg">
+        <div class="wrapper">
+            <div class="row mx-0">
+                <div class="col">
+                    <h2 class="text-skin">
+                        Our Approach
+                    </h2>
+                </div>
+            </div>
+            <div class="row mx-0">
+                <div class="col-lg-6">
+                    <div class="transparent-card position-relative">
+                        <img src="./images/green-leaf.png" alt="green-leaf">
+                        <div class="trans-inner-text">
+                            <p class="fs-3 text-skin text-center">Environmentally Compliant <br>
+                                Products
+                            </p>
+                            <p class="text-skin text-center">
+                                Utilizing world-standard, eco-certified products that are safe for your family, pets,
+                                and the environment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="transparent-card position-relative">
+                        <img src="./images/green-leaf.png" alt="green-leaf">
+                        <div class="trans-inner-text">
+                            <p class="fs-3 text-skin text-center">EcoShield Barrier <br> Application
+                            </p>
+                            <p class="text-skin text-center">
+                                Minimizing waste and pollution through responsible waste management and by using
+                                eco-friendly packaging.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-9 -->
+    <section class="sec-9bg" id="contact">
+        <div class="wrapper">
+            <div class="row mx-0 mb-5">
+                <div class="col get-q-p-text">
+                    <p class="text-skin">
+                        Contact us today to schedule a consultation and take the first step towards <br>
+                        a greener, safer, and pest-free future!
+                    </p>
+                </div>
+            </div>
+            <div class="row mx-0 mb-5">
+                <div class="col">
+                    <h2 class="text-skin">
+                        Request a free quote
+                    </h2>
+                </div>
+            </div>
+            <div class="row mx-0">
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <label for="exampleInputPassword1" class="form-label to-easy-text">Name</label>
+                    <input type="text" class="form-control to-easy">
+                </div>
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <label for="exampleInputPassword1" class="form-label to-easy-text">Phone Number</label>
+                    <input type="number" class="form-control to-easy">
+                </div>
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <label for="exampleInputPassword1" class="form-label to-easy-text">Chosse a service</label>
+                    <select class="form-select to-easy" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mx-0 mt-lg-5 mt-2 align-items-end justify-content-center">
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <label for="exampleInputPassword1" class="form-label to-easy-text">Email</label>
+                    <input type="email" class="form-control to-easy">
+                </div>
+                <div class="col-lg-4 mt-lg-0 mt-2">
+                    <label for="exampleInputPassword1" class="form-label to-easy-text">Message</label>
+                    <input type="text" class="form-control to-easy">
+                </div>
+                <div class="col-lg-4 quote-btn mt-lg-0 mt-4">
+
+                    <button class="w-100">
+                        GET A QUOTE
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer-bg">
+        <div class="wrapper">
+            <div class="row justify-content-between align-items-start mx-0 px-0">
+                <div class="col-lg-2 d-flex justify-content-lg-start justify-content-center">
+                    <div>
+                        <img src="./images/footer-logo.png" alt="">
+                    </div>
+                </div>
+                <div
+                    class="col-lg-6 d-flex flex-lg-row flex-column gap-lg-5 gap-2 align-items-lg-start align-items-center justify-content-center">
+                    <div
+                        class="text-skin d-flex flex-column align-items-lg-start align-items-center gap-2 mt-lg-0 mt-4">
+                        <a href="#">About</a>
+                        <a href="#">Why Choose Us</a>
+                        <a href="#">Soft Services</a>
+                    </div>
+                    <div
+                        class="text-skin d-flex flex-column gap-lg-4 gap-2 mt-lg-0 mt-4 align-items-lg-start align-items-center">
+                        <a href="#">Parking Managment</a>
+                        <a href="#">Hospital Services</a>
+                        <a href="#">Pest control(Eco-Friendly)</a>
+                    </div>
+                    <div
+                        class="text-skin d-flex flex-column gap-lg-4 gap-2 mt-lg-0 mt-4 align-items-lg-start align-items-center">
+                        <a href="#">Client</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-4 d-flex all-socails justify-content-lg-center justify-content-lg-start justify-content-center mt-lg-0 mt-5 gap-3 ">
+                    <div class="hover-efftc">
+                        <img src="./images/facbook.png" alt="">
+                    </div>
+                    <div class="hover-efftc">
+                        <img src="./images/instgram.png" alt="">
+                    </div>
+                    <div class="hover-efftc">
+                        <img src="./images/youtube.png" alt="">
+                    </div>
+                    <div class="hover-efftc">
+                        <img src="./images/tiktok.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="call-now">
+                <button>
+                    <div>
+                        <img src="./images/phone-logo.png" alt="">
+                    </div>
+                    Call Now: +947 414107202
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="lower-sec">
+        <div class="wrapper">
+            <div class="row align-items-center">
+                <div class="col-6 d-flex justify-content-start">
+                    <div>
+                        <a href="">NOBLE SERVICES</a>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <div>
+                        <a href="">TREMS | PRIVACY POLICY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- js file -->
+<script src="script.js"></script>
