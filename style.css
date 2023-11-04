@@ -985,6 +985,11 @@ p {
 }
 
 @media (max-width:600px) {
+    .company-card .col {
+        width: 100%;
+        flex: auto;
+    }
+
     .overlay a {
         text-align: center;
         padding-left: unset;
