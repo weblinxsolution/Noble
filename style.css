@@ -340,7 +340,7 @@ p {
    transition: .5s;
 }
 .my__img:hover::after {
-   right: 570px;
+   right: 100%;
 }
 
 .my__img1 {
@@ -362,7 +362,7 @@ p {
     transition: .5s;
  }
  .my__img1:hover::after {
-    right: 570px;
+    right: 100%;
  }
 
 .my__img2 {
@@ -383,7 +383,7 @@ p {
     transition: .5s;
  }
  .my__img2:hover::after {
-    right: 570px;
+    right: -100%;
  }
 .img__box-2 {
     justify-content: end;
