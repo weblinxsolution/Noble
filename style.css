@@ -931,6 +931,10 @@ p {
 .get-q-p-text p {
     line-height: 30px;
 }
+a:hover{
+    transition: .4s all;
+    color: #CB865D;
+}
 
 @media(min-width:1100px) {
     .title__ {
