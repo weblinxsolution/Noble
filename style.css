@@ -114,13 +114,15 @@ p {
 .spacing {
     padding-top: 5%;
 }
-.spacing-3{
+
+.spacing-3 {
     height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .spacing-2 {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -343,13 +345,13 @@ p {
     height: 100%;
     position: absolute;
     background-color: #00000091;
-    bottom: 0;
+    top: 0;
     right: 0;
     transition: .5s;
 }
 
 .my__img:hover::after {
-    right: 100%;
+    top: -100%;
 }
 
 .my__img1 {
@@ -367,13 +369,13 @@ p {
     height: 100%;
     position: absolute;
     background-color: #00000091;
-    bottom: 0;
+    top: 0;
     right: 0;
     transition: .5s;
 }
 
 .my__img1:hover::after {
-    right: 100%;
+    top: -100%;
 }
 
 .my__img2 {
@@ -390,13 +392,13 @@ p {
     height: 100%;
     position: absolute;
     background-color: #00000091;
-    bottom: 0;
+    top: 0;
     right: 0;
     transition: .5s;
 }
 
 .my__img2:hover::after {
-    right: -100%;
+    top: -100%;
 }
 
 .img__box-2 {
