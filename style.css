@@ -563,8 +563,62 @@ p {
 
 }
 
-.about-bg-1 {
-    background-image: url("/images/banner-image.png");
+.bg_chs_item {
+    background-image: url("./images/bg__choose.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg_about {
+    background-image: url("./images/banner-about.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.bg_contact {
+    background-image: url("./images/banner-contact.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.bg_home {
+    background-image: url("./images/banner-home.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.bg_pest {
+    background-image: url("./images/banner-pest.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.bg_service {
+    background-image: url("./images/banner-service.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.bg_thankyou {
+    background-image: url("./images/banner-thankyou.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.bg_whychoose {
+    background-image: url("./images/banner-choose.png");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 15%;
@@ -985,6 +1039,11 @@ p {
 }
 
 @media (max-width:600px) {
+    .my__content1 {
+        position: absolute;
+        right: 28%;
+    }
+
     .company-card .col {
         width: 100%;
         flex: auto;
@@ -1004,7 +1063,43 @@ p {
         transform: translateX(-50%);
     }
 
-    .about-bg-1 {
+    .bg_about {
+        background-size: cover;
+        padding-top: 65%;
+        padding-bottom: 35%;
+    }
+
+    .bg_contact {
+        background-size: cover;
+        padding-top: 65%;
+        padding-bottom: 35%;
+    }
+
+    .bg_home {
+        background-size: cover;
+        padding-top: 65%;
+        padding-bottom: 35%;
+    }
+
+    .bg_pest {
+        background-size: cover;
+        padding-top: 65%;
+        padding-bottom: 35%;
+    }
+
+    .bg_service {
+        background-size: cover;
+        padding-top: 65%;
+        padding-bottom: 35%;
+    }
+
+    .bg_thankyou {
+        background-size: cover;
+        padding-top: 65%;
+        padding-bottom: 35%;
+    }
+
+    .bg_whychoose {
         background-size: cover;
         padding-top: 65%;
         padding-bottom: 35%;
