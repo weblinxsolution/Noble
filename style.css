@@ -472,7 +472,7 @@ p {
 /* Position the content inside the overlay */
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 10%;
     /* 25% from the top */
     width: 100%;
     /* 100% width */
@@ -978,10 +978,9 @@ p {
 
 @media (max-width:600px) {
     .overlay a {
-
         text-align: center;
         padding-left: unset;
-        font-size: small;
+        font-size: 28px;
     }
 
     .inner-logo-dark img {
