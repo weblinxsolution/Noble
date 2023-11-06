@@ -931,7 +931,8 @@ p {
 .get-q-p-text p {
     line-height: 30px;
 }
-a:hover{
+
+a:hover {
     transition: .4s all;
     color: #CB865D;
 }
@@ -1204,6 +1205,16 @@ a:hover{
 }
 
 @media(max-width:375px) {
+    .banner-heading-text {
+        font-size: 18px !important;
+    }
+
+    .banner-title {
+        top: 35%;
+        left: 65%;
+        width: 100%;
+    }
+
     .hexagon_img img {
         width: 138px;
         margin-top: -95px;
